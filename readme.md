@@ -2,7 +2,7 @@
 
 **Disclaimer:** Use this at your own risk. A basic anti-cheat _should_ detect a program like this.
 
-**Dependancies:** Coming soon
+**Dependancies:** playsound, pypiwin32, pywin32
 
 **Set up:** Configure anti-recoil arrays in guns.json. A very basic Kilo array has been preconfigured. 
 
