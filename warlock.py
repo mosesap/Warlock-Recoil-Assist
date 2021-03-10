@@ -8,7 +8,7 @@ LMB = 0x01
 RMB = 0x02
 end = 0x2E
 enable = 0x2D
-rel = 0x52
+rel = 0x52 #reload
 loadout = 0x48
 swap1 = 0x31
 swap2 = 0x32
@@ -50,7 +50,7 @@ def get_loadout(loadout):
     start_time = time.time()
     while is_loadout_pressed():
         if time.time() - start_time > 1:
-            repeat_sound(2, 'hitmarker.wav')
+            repeat_sound(3, 'hitmarker.wav')
             return True
     return False
 

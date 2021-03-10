@@ -18,6 +18,6 @@ Do not forget to configure the gun's rate of fire in RPM. The script will move y
 
 INSERT: enable/disable  
 DELETE: stop execution  
-H: Hold to select gun from guns.json  
-1 thru 0: After holding H press a number to select a re-configured gun.  
-1 or 2: Once a gun has been selected, 1 or 2 can be pressed to disable/enable the script, simulating a weapon change. _Most secondaries will not require recoil control._  
+H: Hold to select gun from guns.json. You will hear 3 hitmarker sounds once you are able to select a gun.  
+1 thru 0: After holding H press a number to select a re-configured gun. You will hear 2 hitmarker sounds once a gun is selected.
+1 or 2: Once a gun has been selected, 1 or 2 can be pressed to disable/enable the script (in addition to INSERT), simulating a weapon change. _Most secondaries do not require recoil control._  
